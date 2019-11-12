@@ -1,0 +1,5 @@
+# Setup Fernet tokens (ensure the keys are uploaded to swift first)
+parameter_defaults:
+  controllerExtraConfig:
+     keystone::token_provider: 'fernet'
+

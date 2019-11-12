@@ -1,0 +1,14 @@
+parameter_defaults:
+  HostnameMap:
+    overcloud-controller-0:  ice-osp-ctl-01
+    overcloud-controller-1:  ice-osp-ctl-02
+    overcloud-controller-2:  ice-osp-ctl-03
+    overcloud-compute-0:  ice-osp-com-01
+    overcloud-compute-1:  ice-osp-com-02
+    overcloud-compute-2:  ice-osp-com-03
+    overcloud-cephstorage-0:  ice-osp-ceph-01
+    overcloud-cephstorage-1:  ice-osp-ceph-02
+    overcloud-cephstorage-2:  ice-osp-ceph-03
+    overcloud-cephstorage-3:  ice-osp-ceph-04
+    overcloud-networker-0:  ice-osp-net-01
+    overcloud-networker-1:  ice-osp-net-02

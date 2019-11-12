@@ -1,0 +1,19 @@
+# Set customized enviromental variables for lab.local
+parameter_defaults:
+  CloudName: ice-cloud.lab.local
+
+  OvercloudControllerFlavor: control
+  OvercloudComputeFlavor: compute
+  ControllerCount: 3
+  ComputeCount: 3
+  NetworkerCount: 2
+  CephStorageCount: 0
+  GenericCount: 0
+
+  TimeZone: 'GMT'
+  NtpServer: ntp.lab.local
+
+  NeutronL3HA: true
+
+  NeutronNetworkType: vxlan
+  NeutronTunnelType: vxlan
