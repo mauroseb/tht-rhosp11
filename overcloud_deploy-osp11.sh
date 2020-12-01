@@ -1,8 +1,6 @@
 #!/bin/bash -x
 
 THT=/home/stack/templates/
-N_COMP=3
-N_CTRL=3
 
 time openstack overcloud deploy \
      --templates /usr/share/openstack-tripleo-heat-templates \
